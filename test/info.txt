@@ -1,0 +1,87 @@
+filemapinfo: 
+{
+  obj=0x9a4420
+}
+
+fileinfo: 
+{
+  file size=114226,ret=0
+  version=<FILEMAP V1.0>,indexstart=10240,datastart=11826,maxfilenum=10,ret=0
+}
+
+global_map:
+{
+  seg:[pos=0,size=114226]
+  seg_def:
+  {
+    seg: [pos=0,size=10240]
+  }
+  seg_index: 
+  {
+    seg_bitmap:
+    {
+      seg: [pos=10240,size=2]
+    }
+    seg_hashmap:
+    {
+      seg: [pos=10242,size=864]
+    }
+    seg_realmap:
+    {
+      seg: [pos=11106,size=720]
+    }
+  }
+  seg_data:
+  {
+    seg: [pos=11826,size=102400]
+  }
+}
+
+bitmap: 
+{
+  [0-10] FF C0 
+}
+
+poshashmap:
+{
+  [0] used_flag=1,key=Name_8,index=8,ret=0
+  [1] used_flag=1,key=Name_9,index=9,ret=0
+  [2] used_flag=0,key=,index=0,ret=0
+  [3] used_flag=0,key=,index=0,ret=0
+  [4] used_flag=1,key=Name_0,index=0,ret=0
+  [5] used_flag=1,key=Name_1,index=1,ret=0
+  [6] used_flag=1,key=Name_2,index=2,ret=0
+  [7] used_flag=1,key=Name_3,index=3,ret=0
+  [8] used_flag=1,key=Name_4,index=4,ret=0
+  [9] used_flag=1,key=Name_5,index=5,ret=0
+  [10] used_flag=1,key=Name_6,index=6,ret=0
+  [11] used_flag=1,key=Name_7,index=7,ret=0
+}
+
+realnamemap:
+{
+  [0] used_flag=0,key=,index=0,ret=0
+  [1] used_flag=0,key=,index=0,ret=0
+  [2] used_flag=0,key=,index=0,ret=0
+  [3] used_flag=0,key=,index=0,ret=0
+  [4] used_flag=0,key=,index=0,ret=0
+  [5] used_flag=0,key=,index=0,ret=0
+  [6] used_flag=0,key=,index=0,ret=0
+  [7] used_flag=0,key=,index=0,ret=0
+  [8] used_flag=0,key=,index=0,ret=0
+  [9] used_flag=0,key=,index=0,ret=0
+}
+
+dataseg:
+{
+  [0] value=Value_0...
+  [1] value=Value_1...
+  [2] value=Value_2...
+  [3] value=Value_3...
+  [4] value=Value_4...
+  [5] value=Value_5...
+  [6] value=Value_6...
+  [7] value=Value_7...
+  [8] value=Value_8...
+  [9] value=Value_9...
+}
