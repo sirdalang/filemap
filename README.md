@@ -1,2 +1,2 @@
 # filemap
-filemap: A map based on file. Low memory cost
+filemap: A file based map. Low memory cost
