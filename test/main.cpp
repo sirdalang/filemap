@@ -7,8 +7,8 @@
 
 int main()
 {
-    // test_filemap ();
-    test_filemap1 ();
+    test_filemap ();
+    //test_filemap1 ();
 
     printf ("\nTEST SUCCESSFUL! \n\n\n");
     
